@@ -54,6 +54,13 @@ Repository with projects written for RPi pico in Pico C/C++ sdk.
    ```sh
    make
    ```
+   
+### IMPORTANT!
+
+To use PicoSDK with RPi Pico 2, build the make file like this:
+```ps
+cmake -DPICO_PLATFORM=rp2350 ..
+```
 
 ### Flashing the Firmware
 
