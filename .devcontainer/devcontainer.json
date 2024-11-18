@@ -11,8 +11,7 @@
         "ms-vscode.cpptools-extension-pack",
         "aaron-bond.better-comments",
         "mhutchie.git-graph",
-        "VisualStudioExptTeam.vscodeintellicode-completions",
-         
+        "VisualStudioExptTeam.vscodeintellicode-completions"
       ]
     }
   },

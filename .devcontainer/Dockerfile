@@ -1,3 +1,4 @@
+
 FROM mcr.microsoft.com/vscode/devcontainers/base:ubuntu
 
 # Add timezone info and that we are not interactive
@@ -13,7 +14,8 @@ RUN apt-get update && \
     wget \
     curl \
     git  \
-    python3
+    python3\
+    neofetch
 
 # Set the dev directory
 WORKDIR /home/dev
